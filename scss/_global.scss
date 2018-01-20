@@ -37,11 +37,15 @@ h6 {
 }
 
 .bg-primary {
-  background-color: $primary !important;
+  background-color: $violet !important;
 }
 
 .bg-dark {
-  background-color: $gray-900 !important;
+  background-image: url('../img/fondo-oscuro.png');
+}
+
+.bg-light {
+  background-image: url('../img/fondo-claro.png');
 }
 
 .text-faded {
@@ -54,6 +58,9 @@ section {
 
 .section-heading {
   margin-top: 0;
+  font: Helvetica;
+  font-size: 52px;
+  color: $violet
 }
 
 ::-moz-selection {

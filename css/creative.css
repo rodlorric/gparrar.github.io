@@ -1,6 +1,6 @@
 /*!
  * Start Bootstrap - Creative v4.0.0-beta.2 (https://startbootstrap.com/template-overviews/creative)
- * Copyright 2013-2017 Start Bootstrap
+ * Copyright 2013-2018 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-creative/blob/master/LICENSE)
  */
 body,
@@ -36,10 +36,13 @@ h6 {
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif; }
 
 .bg-primary {
-  background-color: #f49f2e !important; }
+  background-color: #442e88 !important; }
 
 .bg-dark {
-  background-color: #212529 !important; }
+  background-image: url("../img/fondo-oscuro.png"); }
+
+.bg-light {
+  background-image: url("../img/fondo-claro.png"); }
 
 .text-faded {
   color: rgba(255, 255, 255, 0.7); }
@@ -48,7 +51,10 @@ section {
   padding: 8rem 0; }
 
 .section-heading {
-  margin-top: 0; }
+  margin-top: 0;
+  font: Helvetica;
+  font-size: 52px;
+  color: #442e88; }
 
 ::-moz-selection {
   color: #fff;
@@ -96,7 +102,7 @@ body {
       color: #f49f2e; }
     #mainNav .navbar-nav > li.nav-item > a.nav-link.active,
     #mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active {
-      color: #f49f2e !important;
+      color: #fff !important;
       background-color: transparent; }
       #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover,
       #mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active:hover {
@@ -119,9 +125,9 @@ body {
           color: #fff; }
       #mainNav.navbar-shrink {
         border-bottom: 1px solid rgba(33, 37, 41, 0.1);
-        background-color: #fff; }
+        background-color: #442e88; }
         #mainNav.navbar-shrink .navbar-brand {
-          color: #f49f2e; }
+          color: #fff; }
           #mainNav.navbar-shrink .navbar-brand:focus, #mainNav.navbar-shrink .navbar-brand:hover {
             color: #f49f2e; }
         #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link,
@@ -134,9 +140,10 @@ body {
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 56px);
-  background-image: url("../img/header.jpg");
+  background-image: url("../img/header.jpeg");
   background-position: center center;
   -webkit-background-size: cover;
+  -webkit-filter: grayscale(100%);
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover; }
@@ -144,7 +151,7 @@ header.masthead {
     margin-top: 30px;
     margin-bottom: 30px; }
   header.masthead h1 {
-    font-size: 2rem; }
+    font-size: 1rem; }
   header.masthead p {
     font-weight: 300; }
   @media (min-width: 768px) {

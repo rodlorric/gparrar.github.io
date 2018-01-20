@@ -26,7 +26,7 @@
           color: $primary;
         }
         &.active {
-          color: $primary !important;
+          color: $white !important;
           background-color: transparent;
           &:hover {
             background-color: transparent;
@@ -57,9 +57,9 @@
     }
     &.navbar-shrink {
       border-bottom: 1px solid fade-out($gray-900, .9);
-      background-color: $white;
+      background-color: $violet;
       .navbar-brand {
-        color: $primary;
+        color: $white;
         &:focus,
         &:hover {
           color: darken($primary, .1);
