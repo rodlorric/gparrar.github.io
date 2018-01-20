@@ -20,7 +20,7 @@ hr.light {
 }
 
 a {
-  color: $primary;
+  color: $violet;
   @include transition-all;
   &:hover {
     color: darken($primary, .1);
@@ -61,6 +61,7 @@ section {
   font: Helvetica;
   font-size: 52px;
   color: $violet
+
 }
 
 ::-moz-selection {
