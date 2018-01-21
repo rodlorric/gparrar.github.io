@@ -9,7 +9,7 @@ html {
   height: 100%; }
 
 body {
-  font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif; }
+  font-family: 'Helvetica', sans-serif; }
 
 hr {
   max-width: 50px;
@@ -33,7 +33,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif; }
+  font-family: 'Helvetica', sans-serif; }
 
 .bg-primary {
   background-color: #442e88 !important; }
@@ -52,8 +52,8 @@ section {
 
 .section-heading {
   margin-top: 0;
-  font: Helvetica;
-  font-size: 20px;
+  font-weight: bold;
+  font-size: 3em;
   color: #442e88; }
 
 ::-moz-selection {
@@ -80,7 +80,7 @@ body {
 #mainNav {
   border-bottom: 1px solid rgba(33, 37, 41, 0.1);
   background-color: #fff;
-  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'Helvetica', sans-serif;
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
   transition: all 0.2s; }
@@ -88,7 +88,7 @@ body {
     font-weight: 700;
     text-transform: uppercase;
     color: #f49f2e;
-    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif; }
+    font-family: 'Helvetica', sans-serif; }
     #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
       color: #f49f2e; }
   #mainNav .navbar-nav > li.nav-item > a.nav-link,
@@ -199,7 +199,7 @@ header.masthead {
       .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category,
       .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
         padding: 0 15px;
-        font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif; }
+        font-family: 'Helvetica', sans-serif; }
       .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
         font-size: 14px;
         font-weight: 600;
@@ -224,7 +224,8 @@ header.masthead {
   text-transform: uppercase;
   border: none;
   border-radius: 300px;
-  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif; }
+  width: 100%;
+  font-family: 'Helvetica', sans-serif; }
 
 .btn-xl {
   padding: 1rem 2rem; }
@@ -237,3 +238,5 @@ header.masthead {
     background-color: #f39416 !important; }
   .btn-primary:active, .btn-primary:focus {
     box-shadow: 0 0 0 0.2rem rgba(240, 95, 64, 0.5) !important; }
+  .btn-primary .mx-auto {
+    margin-right: 0.5em !important; }
