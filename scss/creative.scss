@@ -6,3 +6,14 @@
 @import "services.scss";
 @import "portfolio.scss";
 @import "bootstrap-overrides.scss";
+
+.btn-large {
+    position: absolute;
+    left: 0px;
+    @include sans-serif-font;
+}
+
+.btn{
+    background: #f49f2e;
+    border-radius: 0px;
+}
