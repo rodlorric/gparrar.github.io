@@ -6,7 +6,6 @@
 }
 @mixin background-cover() {
   -webkit-background-size: cover;
-  -webkit-filter: grayscale(100%);
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
